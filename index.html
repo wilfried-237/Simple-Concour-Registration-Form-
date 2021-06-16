@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concour Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form action="#" method="post">
+            <h1>Concour Registration</h1>
+            <input type="text" name="Name" placeholder="First Name" id="name"required>
+            <input type="text" name="Surname" placeholder="Surname" id="surname" required>
+            <input type="email" name="Email" id="email" placeholder="Email" required>
+            <input type="tel" name="tel" placeholder="Tel" id="tel" required>
+            
+            <h3>Which Concours do you want to register?</h3>
+            <div class="concours">
+            <input type="checkbox" name="FET" value="Maths" id="subjects"> FET
+            <input type="checkbox" name="COT" id="subjects"> COT
+            <input type="checkbox" name="MEDCINE" id="subjects"> MEDCINE
+            </div>
+            <h3>Upload a PDF file containing a certified copy of the following documents</h3>
+            <label for="Birth Cerficate">Birth Certificate</label>
+            <input type="file" name="birth certificate" id="file" required>
+            <label for="OL Certificate">OL Certificate</label>
+            <input type="file" name="OL Certificate" id="file" required>
+            <label for="AL Certificate">AL Certificate</label>
+            <input type="file" name="AL Certificate" id="file" required>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
