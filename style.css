@@ -52,13 +52,16 @@ button{
     font-size: 18px;
     color: white;
     font-weight: bold;
+    border-color: black;
 }
 button:hover{
-    border-color: black;
+    border-color: grey;
     background-color: chartreuse;
     color: white;
 }
 h1{
    margin-right: 100px;
    color: blue;
+   text-shadow: 2px 2px 10px grey, 2px 2px 10px grey;
+   margin-bottom: 30px;
 }
